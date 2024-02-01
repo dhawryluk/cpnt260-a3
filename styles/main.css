@@ -17,7 +17,7 @@ background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
 background-position: center;
-
+transition: .3s ease;
 } 
 
 .text-box {
@@ -40,21 +40,15 @@ background-position: center;
   color: hotpink
 }
 
-/* .classic-text {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.classic-text {
   text-align: center;
   font-family: "Orbitron", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.4em;
   text-transform: uppercase;
   font-weight: 900;
-  color: rgb(255, 255, 0);
-  text-shadow: -2px -1px rgb(0, 255, 255);
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.555);
+  color: rgb(255, 255, 255);
   border-radius: 15px;
-} */
+}
 
 .cta-button {
   display: flex;
@@ -83,9 +77,10 @@ background-position: center;
   cursor: pointer;
 }
 
-main {
+body {
+  height: 100vh;
   background: rgb(0,255,255);
-  background: linear-gradient(180deg, rgba(0,255,255,0.6924195703672094) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(180deg, rgb(0, 255, 255) 0%, rgba(255,255,255,1) 100%);
 }
 
   .body-text {
@@ -95,12 +90,21 @@ main {
   font-style: normal;
   font-size: 1.2em;
   line-height: 1.2em;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
   max-width: 80%;
   margin: auto;
   color: black;
   text-align: justify;  
 } 
+
+.page2-title {
+  text-align: center;
+  color: white;
+  font-family: "Great Vibes", cursive;
+  font-style: normal;
+  padding-top: 20px;
+}
+
 
 
 
